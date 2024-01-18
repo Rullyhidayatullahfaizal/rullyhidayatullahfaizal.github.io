@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ============== scroll reveal cdn ================ -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- ============== box icon cdn  ===================== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ============== custom css file ==================  -->
+    <link rel="stylesheet" href="dist/style.css">
+
+    <title>Mini portfolio.</title>
+</head>
+<body>
+    <!-- =============== home page ==================  -->
+    <div class="home-section section flex " id="home">
+        <!-- navigation menu  -->
+        <div class="header-nav">
+            <!-- mode change icon  -->
+            <div class="mode-change-icon">
+                <i class="bx bx-moon" id="mode-change-icon"></i>
+            </div>
+
+            <!-- menu icon  -->
+            <div class="menu-icon">
+                <i class='bx bx-grid-alt' id="menu-icon"></i>
+            </div>
+
+            <!-- nav list  -->
+            <ul class="header-nav-list nav flex" id="header-nav-list">
+                <li>
+                    <a href="#home" class="nav-link active">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-link">
+                        Projects
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">
+                        About me
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills" class="nav-link">
+                        My skill
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+
+        <!-- hero section  -->
+        <div class="hero flex">
+            <div class="hero-img flex">
+                <img src="img/profile-modified.png" class="profile-pic " alt="">
+                <span class="hero-img-bg"></span>
+            </div>
+            <!-- hero content  -->
+            <div class="hero-content flex">
+                <h1 class="header">
+                    I'm 
+                    <span>
+                        Rully H_F
+                    </span>
+                    , a Programming
+                </h1>
+                
+                <h2 class="sub-header">
+                    I made a simple
+                    <span>
+                        Project
+                    </span>
+                </h2>
+    
+                <a href="https://github.com/Rullyhidayatullahfaizal?tab=repositories" class="btn hero-btn" target="_blank">
+                    View my Project
+                    <i class='bx bx-paper-plane' ></i>
+                </a>
+            </div>
+    
+            <!-- social icon list  -->
+            <div class="social-icon-list">
+                <ul class="nav flex">
+                    <li class="social-icon">
+                        <a href="#">
+                        <i class="bx bxl-facebook-circle"></i>
+                        </a>
+                    </li>
+                    <li class="social-icon">
+                        <a href="https://instagram.com/Rullyhidayatullahfaizal" target="_blank">
+                            <i class="bx bxl-instagram-alt"></i>
+                        </a>
+                    </li>
+                    <li class="social-icon">
+                        <a href="https://twitter.com/Rully60229629" target="_blank">
+                        <i class="bx bxl-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social-icon">
+                        <a href="https://www.linkedin.com/in/rully-hidayatullah-faizal-53a30a240/" target="_blank">
+                        <i class="bx bxl-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="scroll-top-icon" id="scroll-up">
+                <i class="bx bxs-chevron-up-circle" id="scroll-top-icon"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- =============== projects section ============ -->
+    <div class="project-section section" id="projects">
+        <h1 class="section-header">
+            Projects
+        </h1>
+
+        <div class="project project-1 flex">
+            <div class="project-img">
+                <img src="img/project1.png" alt="">
+            </div>
+
+            <div class="project-content flex">
+                <h1 class="project-header">
+                  Plane Ticket Booking 
+                </h1>
+
+                <p class="project-description">
+                  This project is an airline ticket booking system designed with react-js, supabase, next-js and ant-design technology.
+                </p>
+                <p class="project-description">
+                  Here I developed it with my friend using git & git-hub tools, in this project I got real knowledge about how to practice collaboration or work with git-hub technology
+                </p>
+
+                <div class="btn-group">
+                    <button class="btn live-demo-btn">
+                        Live Demo
+                    </button>
+                    <button class="btn view-code-btn" onclick="window.open('https://github.com/blanc08/mercubuana-tb2-web-enterprise', '_blank')">
+                      View Code
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project project-2 flex">
+            <div class="project-img">
+                <img src="img/project3.png" alt="">
+            </div>
+
+            <div class="project-content flex">
+                <h1 class="project-header">
+                    CV-Anime List
+                </h1>
+
+                <p class="project-description">
+                  This project is my personal work, where users can review and comment on a list of anime films. I implemented React.js, Next.js, Prisma, and MySQL technologies in the development of this project. For this project, I am committed to continuing to develop it as a learning resource, integrating new features and emerging technologies as time goes by.
+                </p>
+
+                <div class="btn-group">
+                    <button class="btn live-demo-btn">
+                        Live Demo
+                    </button>
+                    <button class="btn view-code-btn" onclick="window.open('https://github.com/Rullyhidayatullahfaizal/cv-anime', '_blank')">
+                      View Code
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============== About Section ==============  -->
+    <div class="about-section section" id="about">
+        <h1 class="section-header">
+            About me
+        </h1>
+
+        <div class="about-content flex">
+            <div class="about-img flex">
+                <img src="img/animasibulat.png" alt="">
+            </div>
+
+            <div class="about-info">
+                <h1 class="content-header">
+                    Rully Hidayatullah faizal.
+                </h1>
+
+                <p class="content-body">
+                  I am an active student at Mercu Buana University, currently taking my 5th semester in the Computer Science study program majoring in Informatics Engineering. As part of the employee or regular class 2, I am committed to combining theoretical knowledge with practical experience in facing the challenges of the technological world. During my academic journey, I have developed skills in various aspects especially web development(front-end), including programming, software development, and data analysis. I have high enthusiasm to continue learning and exploring innovation in the world of technology.
+          
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+          <!-- 
+        - #SKILLS
+      -->
+
+      <section class="skills section" id="skills">
+
+        <div class="skills-content section-content">
+
+          <p class="section-subtitle section-header">My skills</p>
+
+          <h2 class="h3 section-title text-putih about-info">What My Programming Skills Included?</h2>
+
+          <p class="section-text project-description text-putih about-info">
+            I develop simple, intuitive and responsive user interface that helps users get things done with less effort
+            and time
+            with those technologies.
+          </p>
+
+          <div class="btn-group skills-toggle about-info" data-toggle-box>
+            <button class="btn toggle-btn active text-putih" data-toggle-btn>Skills</button>
+
+            <button class="btn toggle-btn text-putih" data-toggle-btn>Tools</button>
+          </div>
+
+        </div>
+
+        <div class="skills-box project-1" data-skills-box>
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">HTML5</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/html5.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">CSS3</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/css3.png" alt="CSS3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">JavaScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/javascript.png" alt="JavaScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">TypeScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/typescript.png" alt="TypeScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">jQuery</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/jquery.png" alt="jQuery logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">Bootstrap</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/bootstrap.png" alt="Bootstrap logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">tailwind</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/tailwind.png" alt="Angular logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">React</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/react.png" alt="React logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">Next Js</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/next.png" alt="Vue logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">Mysql</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/mysql.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">NodeJs</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/node.png" alt="PugJs logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih ">ExpressJs</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/express.png" alt="SASS logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">MongoDB</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/monggodb.png" alt="SASS logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">SASS</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/sass.png" alt="SASS logo">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+          <ul class="tools-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">Ajax</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/ajax.png" alt="Ajax logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">Gulp</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/gulp.png" alt="Gulp logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">Webpack</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/webpack.png" alt="Webpack logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">Git</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/git.png" alt="Git logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">Npm</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/npm.png" alt="Npm logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">Command Line</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/command.png" alt="Command Line logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip text-putih">VS Code</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/vs-code.png" alt="VS Code logo">
+                </div>
+              </div>
+            </li>
+
+           
+
+            
+          </ul>
+
+        </div>
+
+      </section>
+
+
+
+
+
+
+    <!-- =============== contact section ============= -->
+    <div class="contact-section section" id="contact">
+        <h1 class="section-header">
+            Contact me
+        </h1>
+
+        <form action="" class="contact-form flex">
+            <div class="contact-group flex">
+                <input type="text" name="username" placeholder="Your name" required id="">
+                <input type="email" name="email" placeholder="Your email" required id="">
+            </div>
+            <textarea name="" id="" required placeholder="Your message" cols="30" rows="10"></textarea>
+
+            <button class="btn submit-btn">
+                Send Message
+            </button>
+        </form>
+    </div>
+    <!-- =============== footer section =============  -->
+    <div class="footer-section section flex">
+        <div class="footer-header">
+            <h1 class="judul">
+              <a href="mailto:Rullyhidayatullahfaizal" target="_blank">
+                Rullyhidayatullahfaizal@gmail.com
+              </a>
+            </h1>
+        </div>
+
+        <div class="footer-nav">
+            <ul class="nav flex">
+              <li class="social-icon">
+                <a href="mailto:Rullyhidayatullahfaizal" target="_blank">
+                    <i class="bx bxl-gmail"></i>
+                </a>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- =============== custom js file  ============= -->
+    <script src="dist/script.js"></script>
+</body>
+</html>
