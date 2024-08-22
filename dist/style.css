@@ -709,7 +709,7 @@ textarea {
 }
 
 /*  testing */
-.visuallyhidden {
+/* .visuallyhidden {
   position: absolute;
   z-index: -1;
   right: 0;
@@ -828,7 +828,7 @@ textarea {
   position: absolute;
   top: calc(-10% - 3px);
   left: calc(-10% - 3px);
-}
+} */
 
 /*swiper  */
 .swiper {
